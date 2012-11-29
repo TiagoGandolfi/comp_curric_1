@@ -51,67 +51,95 @@
       <div class="row-fluid">
 
 
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Lateral</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-             
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        
+               
 
-        <div class="span9">
+        <div class="span12">
           <div class="hero-unit">
-            <h1>Chupa jô</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+            <h1>Lorem Ipsum</h1>
+            <br>
+            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa urna, mollis a imperdiet et, 
+              dictum vitae mauris. Fusce a est nec massa faucibus mollis non eget enim. Etiam eleifend justo ac quam consectetur 
+              faucibus. Morbi eros est, pellentesque fermentum imperdiet eget, hendrerit molestie nisi. Vestibulum vestibulum luctus 
+              faucibus. In vel lorem nunc, at pharetra ante. Integer in mattis mi. Pellentesque ac ante vel sapien gravida semper. 
+              Donec orci est, eleifend id varius in, rutrum et nibh. Quisque non nunc et est auctor blandit eget eu purus. Morbi placerat iaculis blandi nunc lobortis. Vivamus rutrum, turpis non condimentum tristique, metus augue mattis augue, non facilisis enim orci et nisi..</p>
           </div>
+
           <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
+            <div class="span12">
+              <h2>Lorem Ipsum</h2>
+              <p align="justify">Pellentesque non eros quam. Donec commodo nibh eu orci elementum nec iaculis diam aliquet. Nam 
+                consectetur, ante sit amet bibendum blandit, leo tellus molestie diam, nec malesuada lectus tortor ut dolor. Maecenas
+                 id ligula sit amet dolor auctor faucibus nec sed eros. In lectus orci, varius sit amet dictum feugiat, suscipit vel 
+                 dui. Quisque facilisis augue quis enim congue laoreet ornare nunc lobortis. <br> <br>Leo tellus molestie diam, nec
+                  malesuada lectus tortor ut dolor. Maecenas id ligula sit amet dolor auctor faucibus nec sed eros. Cras tempor, nisl 
+                  quis laoreet tincidunt, turpis eros mollis erat, ut eleifend nulla lorem eget nisl. In lectus orci, varius sit amet 
+                  dictum feugiat, suscipit vel dui. Quisque facilisis augue Maecenas id ligula sit amet dolor auctor faucibus nec sed eros.
+                   Cras tempor, nisl quis Maecenas id ligula sit amet dolor auctor faucibus nec sed eros. Cras tempor, nisl quis laoreet 
+                   tincidunt, turpis eros mollis erat, ut eleifend nulla lorem eget nisl. In lectus orci, varius sit amet dictum feugiat, 
+                   suscipit vel dui. Quisque facilisis augue quis enim congue laoreet ornare nunc lobortis. Vivamus rutrum, turpis non 
+                   condimentum tristique, metus augue mattis augue, non facilisis enim orci et nisi..</p>
+              </div><!--/span-->
+              
           <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+            <div class="span12">
+              <h2>Lorem</h2>
+              <p align="justify">Quisque porta suscipit quam iaculis fringilla. Quisque gravida nisl ac lacus pulvinar porttitor 
+                laoreet velit mattis. Suspendisse ac ipsum non risus molestie convallis. Mauris rhoncus tellus eget ipsum rhoncus
+                 ultricies. Nam sed rutrum augue. Curabitur vehicula, risus malesuada feugiat vulputate, sapien metus rhoncus urna, 
+                 vehicula dapibus lacus nisi quis est. Nam consectetur, mauris in rutrum tempus, dui lorem placerat urna, nec posuere 
+                 lorem eros non urna. Maecenas mi ante, mattis sit amet ultrices ac, blandit laoreet mi. Pellentesque vel lorem nunc,
+                  eget rhoncus nisl. Vestibulum pulvinar bibendum placerat. Aenean orci nulla, vehicula varius sodales sollicitudin, 
+                  scelerisque vitae orci. Donec mi sapien, ultricies at vehicula a, tincidunt non massa. Cras mattis nulla quis odio
+                   faucibus sed suscipit mauris viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere 
+                   cubilia Curae; Phasellus porta quam ac diam malesuada ut dapibus nulla tincidunt. Phasellus imperdiet accumsan nisi 
+                   sit amet gravida. </p>
             </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div><!--/row-->
+
+          
             </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+
+            <div class="row-fluid">        
+            <div class="span5">
+              <h2>Ipsum</h2>
+              <p align="justify">Praesent pharetra, ligula porta volutpat placerat, magna arcu consequat leo, non feugiat diam felis in justo.
+               Sed fermentum porttitor fringilla. Maecenas at eros ac leo aliquam interdum non id nisi. In sollicitudin vestibulum 
+               sapien, quis rutrum neque elementum ac. Quisque erat dolor, auctor non tempor vel, ornare vel risus. Ut lobortis nisl 
+               sed urna porta pharetra. Pellentesque ultrices rhoncus tortor, a congue lacus blandit quis. Nulla dictum tellus nec
+                odio dignissim et condimentum sem feugiat. Maecenas et bibendum augue. Curabitur vel est sem, in ullamcorper augue. </p>
             </div><!--/span-->
+            <div class="span7">
+              <h2>Ipsum</h2>
+              <p align="justify">Praesent pharetra, ligula porta volutpat placerat, magna arcu consequat leo, non feugiat diam felis in justo.
+               Sed fermentum porttitor fringilla. Maecenas at eros ac leo aliquam interdum non id nisi. In sollicitudin vestibulum 
+               sapien, quis rutrum neque elementum ac. Quisque erat dolor, auctor non tempor vel, ornare vel risus. Ut lobortis nisl 
+               sed urna porta pharetra. Pellentesque ultrices rhoncus tortor, a congue lacus blandit quis. Nulla dictum tellus nec
+                sapien, quis rutrum neque elementum ac. Quisque erat dolor, auctor non tempor vel, ornare vel risus. Ut lobortis nisl 
+               sed urna porta pharetra. Pellentesque ultrices rhoncus tortor, a congue lacus blandit quis. Nulla dictum tellus nec
+                odio dignissim et condimentum sem feugiat. Maecenas et bibendum augue. Curabitur vel est sem, in ullamcorper augue. </p>
+            </div><!--/span-->
+        </div><!--/span-->
+
+          
+
+
+
+         
+
+
+         
+          <div class="row-fluid">
+            
+           
+            
           </div><!--/row-->
         </div><!--/span-->
-      </div><!--/row-->
+      
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p align="center">&copy; Tiago Cesar Gandolfi - 2012</p>
       </footer>
 
     </div><!--/.fluid-container-->

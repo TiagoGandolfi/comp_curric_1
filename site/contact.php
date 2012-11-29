@@ -27,60 +27,87 @@
     
   </head>
 
+  <body>
+
+  
+    <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container-fluid">
+            <a class="brand" href="#">Meu site</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="page1.php">Pagina 1</a></li>
+                  <li><a href="page2.php">Pagina 2</a></li>
+                  <li><a href="aboutme.php">Sobre Mim</a></li>
+                  <li class="active"><a href="contact.php">Contato</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
 
     <div class="container-fluid">
       <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <p align="justify">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, 
+              paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é 
+              amistosis quis leo. Manduma pindureta quium dia nois Sapien in monti palavris qui num significa nadis i pareci 
+              latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostispaga. <br><br>Sapien in monti palavris qui num significa nadis i pareci 
+              latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Sapien in monti palavris qui num significa nadis i pareci 
+              latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostisSapien in monti palavris qui num significa nadis i pareci 
+              latim. Interessantiss quisso pudia ce rece num gostisSapien in monti palavris qui num significa nadis i pareci 
+              latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis</p>
+          </div><!--/.well -->
+        </div><!--/span-->
+    
 
-                <div class="span9">
-          <div class="hero-unit">
+   
+        <div class="span9">
+         <div class="hero-unit li">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-        <a class="brand" href="#">Meu site</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="page1.php">Pagina 1</a></li>
-              <li><a href="page2.php">Pagina 2</a></li>
-              <li><a href="aboutme.php">Sobre Mim</a></li>
-              <li><a href="contact.php">Contato</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            <form action = "formulario.php" method="POST">
+
+              <fieldset>  
+
+
+                <legend> Formulario de contato</legend>
+
+                <input type="hidden" name="pagina" value="contato">
+
+                <label for="idNome">Nome:</Label>
+                <input type="text" name="nome" id="idNome">
+
+                <label for="idEmail">E-mail:</Label>
+                <input type="email" name="email" id="idEmail">
+                 
+                <label for = "idMensagem">Mensagem: </label>
+                <textarea name="mensagem" id="idMensagem" rows"3"></textarea>
+                <br>
+                <br>
+                <br>
+
+                <button class="btn btn-primary">Enviar Informações</button>
+
+              </fieldset>
+            </form>     
+
+          </div>    
         </div>
-      </div>
-    </div>
-
-
-
-    <form action = "formulario.php" method="POST">
-
-    <fieldset>  
-      <legend> Formulario de contato</legend>
-
-      <input type="hidden" name="pagina" value="contato">
-
-      <label for="idNome">Nome:</Label>
-      <input type="text" name="nome" id="idNome">
-
-      <label for="idEmail">E-mail:</Label>
-      <input type="email" name="email" id="idEmail">
-       
-       <label for = "idMensagem">Mensagem: </label>
-       <textarea name="mensagem" id="idMensagem" rows"3"></textarea>
-
-       <br>
-
-       <button class="btn btn-primary">Enviar Informações</button>
-
-    </fieldset>
-    </form>     
-
-        
-
+      <br>
       <hr>
+      <br>
+      <br>
+      <br>
+      
+            <p><br> <br><br><br> <br></p>
+          </div><!--/.well -->
+        </div><!--/span-->
+
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <br>
+        <p align="center">&copy; Tiago Cesar Gandolfi - 2012</p>
       </footer>
 
     </div><!--/.fluid-container-->

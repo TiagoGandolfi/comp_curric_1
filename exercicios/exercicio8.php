@@ -30,7 +30,7 @@ $inteiro = 1;
 
 $string = "Tiago";
 
-	$array str_split ( string $string [, int $split_length ] );
+	$array  (string $string [int $split_length ] );
 
 	echo $array;
 
