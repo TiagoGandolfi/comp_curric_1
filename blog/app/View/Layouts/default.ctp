@@ -49,10 +49,14 @@
                         <?php echo $this->Html->link('Home',array('controller' => 'users','action' => 'home')) ?>
                       </li>
                       <?php } ?>
-                      <li class="<?php echo $this->action == 'register' ? 'active' : ''; ?>">
-                        <?php echo $this->Html->link(__('Register'),array('controller' => 'users','action' => 'register')) ?>
+                      <li class="<?php echo $this->action == 'Usuarios' ? 'active' : ''; ?>">
+                        <?php echo $this->Html->link(__('Usuarios'),array('controller' => 'users','action' => 'register')) ?>
                       </li>
-
+                     
+                      <li class="<?php echo $this->params->controller == 'posts' && $this->action == 'index' ? 'active' : '';  ?>" >
+                        <?php echo $this->Html->link('Postagens',
+                        array('controller' => 'posts','action' => 'index')) ?>
+                      </li>
 
                     </ul>
 

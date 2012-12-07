@@ -47,6 +47,13 @@
 					</ul>
 				</li>
 
+
+				<?php echo $this->Form->postLink('<i class="icon-trash icon-white"></i> Deletar',
+					                array('action' => 'delete', $post['Post']['id']),
+					                array('confirm' => 'Você tem certeza?', 
+					                'escape' => false, 'class' => 'btn btn-small btn-danger')); ?>
+
+
 			</ul>
 			<hr>
 			<h3> Ready Scripts </h3>

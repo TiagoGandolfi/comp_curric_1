@@ -8,7 +8,13 @@
 		//action
 		// /posts/index
 		public function index(){
-			$todosAsPostagens = $this->Post->find('all');
+				
+			$this->paginate = array('limit' => 5);	
+
+			$todosAsPostagens = $this->paginate('Post');
+
+			//$todosAsPostagens = $this->Post->find('all');
+
 
 			//jogar para VIEW
 			$this->set('posts', $todosAsPostagens);
@@ -44,13 +50,45 @@
 
 		            if ($this->Post->save($dadosDoFormulario)) {
 		                // mostrar MSG
-		            	$this->Session->setFlash('Postagem inserida com Sucesso');
+		            	$this->Session->setFlash('Postagem inserida com Sucesso','flash_success');
 
 		            	//redirecionar para o index
 		                $this->redirect(array('action' => 'index'));
 		            }
 		        }
 		    }
+
+
+
+		function edit($id = null) {
+			    $this->Post->id = $id;
+			    if ($this->request->is('get')) {
+			        $this->request->data = $this->Post->read();
+			    } else {
+			        if ($this->Post->save($this->request->data)) {
+			            $this->Session->setFlash('Postagem atualizada com sucesso.');
+			            $this->redirect(array('action' => 'index'));
+			        }
+			    }
+			}
+
+    
+
+
+    	function delete($id) {
+
+
+		    if (!$this->request->is('post')) {
+		        throw new MethodNotAllowedException();
+		    }
+		    if ($this->Post->delete($id)) {
+		        $this->Session->setFlash('Postagem ' . $id . ' deletada.');
+		        $this->redirect(array('action' => 'index'));
+		    }
+		}
+
+
+
 
 
 	}

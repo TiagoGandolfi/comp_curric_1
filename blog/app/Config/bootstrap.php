@@ -148,9 +148,9 @@ Cache::config('default', array('engine' => 'File'));
 */
 Configure::write(
 	'Application', array(
-		'name' => 'CakeStrap',
-		'from_email' => 'from@your_app_domain.com',
-		'contact_mail' => 'contact@your_app_domain.com'
+		'name' => 'Tiago Gandolfi',
+		'from_email' => 'tiago_gandolfi@hotmail.com',
+		'contact_mail' => 'Tiago_gandolfi@hotmail.com'
 	)
 );
 
