@@ -1,0 +1,1649 @@
+2012-09-04 18:04:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:22:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:35:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/cakeStrap/app/View/Layouts/default.ctp, line 21]
+2012-09-04 18:35:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:03:19 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:03:19 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:05:50 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:05:50 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:41:23 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-31 18:51:48 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\view.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 17:53:40 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\add.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 18:17:24 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\caketeste\app\View\Posts\index.ctp, line 5]
+2012-11-14 18:17:25 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 21:24:31 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#10 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#11 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(424): View->_render('/Users/tiagolin...', Array)
+#12 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#14 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#15 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(475): View->_render('/Users/tiagolin...')
+#16 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-27 21:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:24:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:26:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:06:39 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:06:43 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:06:45 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:06:50 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:08:38 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:08:47 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:10:09 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#5 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\tiagogandolfi\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#9 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#12 C:\xampp\htdocs\tiagogandolfi\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#13 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#17 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#18 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-27 23:50:33 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 00:06:34 Error: Fatal Error (4): syntax error, unexpected 'extebds' (T_STRING), expecting '{' in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\HelloController.php, line 3]
+2012-11-28 00:06:34 Error: [FatalErrorException] syntax error, unexpected 'extebds' (T_STRING), expecting '{'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:07:19 Error: Fatal Error (4): syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\HelloController.php, line 4]
+2012-11-28 00:07:19 Error: [FatalErrorException] syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:08:48 Error: Fatal Error (4): syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\HelloController.php, line 4]
+2012-11-28 00:08:48 Error: [FatalErrorException] syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:08:51 Error: Fatal Error (4): syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\HelloController.php, line 4]
+2012-11-28 00:08:51 Error: [FatalErrorException] syntax error, unexpected 'fuction' (T_STRING), expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 00:09:37 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:09:42 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:09:54 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:10:30 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:10:32 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:10:36 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 00:11:28 Error: [MissingViewException] View file "C:\xampp\htdocs\tiagogandolfi\blog\app\View\Hello\index.ctp" is missing.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 21:27:54 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:28:06 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:28:18 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:28:33 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:28:35 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:29:06 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:29:45 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:30:01 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:30:21 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:30:49 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:30:51 Error: [MissingControllerException] Controller class TIAGOGANDOLFIController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:57:34 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:58:18 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\PostsController.php(11): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-28 22:19:20 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 31]
+2012-11-28 22:19:20 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:21:47 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 31]
+2012-11-28 22:21:47 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:24:26 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 31]
+2012-11-28 22:24:26 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:24:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:25:20 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 31]
+2012-11-28 22:25:20 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 31, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:26:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:26:08 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 28]
+2012-11-28 22:26:08 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:28:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:44:22 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 22:45:00 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 22:45:02 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 22:58:27 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 22:59:09 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 23:01:27 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 23:01:37 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 23:07:51 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\PostsController.php, line 9]
+2012-11-28 23:07:51 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:08:44 Error: Fatal Error (4): syntax error, unexpected '{', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\PostsController.php, line 5]
+2012-11-28 23:08:44 Error: [FatalErrorException] syntax error, unexpected '{', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:08:52 Error: Fatal Error (4): syntax error, unexpected '{', expecting function (T_FUNCTION) in [C:\xampp\htdocs\tiagogandolfi\blog\app\Controller\PostsController.php, line 5]
+2012-11-28 23:08:52 Error: [FatalErrorException] syntax error, unexpected '{', expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:30:04 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\add.ctp, line 10]
+2012-11-28 23:30:04 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:31:47 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\add.ctp, line 10]
+2012-11-28 23:31:47 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:33:29 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\add.ctp, line 13]
+2012-11-28 23:33:29 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:33:30 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\add.ctp, line 13]
+2012-11-28 23:33:30 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:50:50 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 23:50:56 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 23:51:21 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\tiagogandolfi\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 23:57:56 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 13]
+2012-11-28 23:57:56 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 00:02:33 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\tiagogandolfi\blog\app\View\Posts\index.ctp, line 13]
+2012-11-29 00:02:33 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\tiagogandolfi\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 16:43:33 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-05 16:49:39 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-05 16:49:41 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\blog\app\View\Elements\form_users.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\blog\app\View\Users\register.ctp(6): View->element('form_users', Array)
+#9 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-05 16:50:55 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-12-05 19:42:33 Error: Fatal Error (1): Class 'AppModel' not found in [C:\xampp\htdocs\blog\app\Model\AppModel.php, line 34]
+2012-12-05 19:42:33 Error: [FatalErrorException] Class 'AppModel' not found
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-05 19:43:20 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in [C:\xampp\htdocs\blog\app\Model\AppModel.php, line 35]
+2012-12-05 19:43:20 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:02:33 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 13:17:04 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\blog\app\View\Posts\index.ctp, line 11]
+2012-12-06 13:17:04 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:32:58 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 55]
+2012-12-06 13:32:59 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:34:34 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 55]
+2012-12-06 13:34:34 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:34:40 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 55]
+2012-12-06 13:34:40 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:35:14 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 55]
+2012-12-06 13:35:14 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:35:20 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 13:35:20 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 55]
+2012-12-06 13:35:20 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 13:35:52 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 13:36:02 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:36:06 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:36:26 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:36:41 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:36:42 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:36:43 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:37:16 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:37:44 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:37:46 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:39:04 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:39:07 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:41:19 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:42:14 Error: [MissingViewException] View file "C:\xampp\htdocs\blog\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:43:08 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:43:35 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:43:49 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:45:28 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:46:34 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:46:37 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:46:39 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:46:41 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:48:01 Error: [NotFoundException] Usuário inválido
+#0 [internal function]: UsersController->view()
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 13:48:03 Error: [MissingActionException] Action UsersController::id() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:48:04 Error: [MissingActionException] Action UsersController::id() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:49:16 Error: [MissingActionException] Action UsersController::id() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:49:18 Error: [MissingActionException] Action UsersController::id() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:52:06 Error: [MissingActionException] Action UsersController::id() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:52:08 Error: [MissingActionException] Action UsersController::3() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:52:38 Error: [MissingActionException] Action UsersController::3() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:52:39 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 13:52:40 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:31:43 Error: [MissingActionException] Action UsersController::posts() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:35:25 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 57]
+2012-12-06 15:35:25 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 15:35:38 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 57]
+2012-12-06 15:35:38 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 15:35:41 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\blog\app\View\Layouts\default.ctp, line 57]
+2012-12-06 15:35:41 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 15:36:00 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:36:32 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:36:34 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:36:37 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:36:44 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:39:05 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:39:08 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:39:16 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:39:20 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:42:33 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:42:39 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:42:40 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 15:42:42 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 16:09:30 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\blog\app\Controller\PostsController.php, line 21]
+2012-12-06 16:09:30 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 16:09:32 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\blog\app\Controller\PostsController.php, line 21]
+2012-12-06 16:09:32 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 17:00:56 Error: [MissingViewException] View file "C:\xampp\htdocs\blog\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-07 10:16:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:17:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:17:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:17:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:48:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:48:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:49:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:49:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:50:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 10:51:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:33:46 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Post', 'fields')
+#4 C:\xampp\htdocs\etiquetas\app\View\Posts\add.ctp(5): FormHelper->create('Post')
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-12-08 16:35:30 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Post', 'fields')
+#4 C:\xampp\htdocs\etiquetas\app\View\Posts\add.ctp(5): FormHelper->create('Post')
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-12-08 16:35:33 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Post', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\PostsController.php(14): Controller->paginate('Post')
+#5 [internal function]: PostsController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 16:41:14 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:43:52 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:43:59 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:44:04 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:50:01 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:50:03 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:50:08 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:52:47 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:52:52 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:52:57 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:52:59 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:53:00 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:53:02 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:53:18 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:53:47 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:53:51 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:56:24 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:56:30 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:58:32 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:58:40 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:58:43 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:59:02 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:59:06 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:59:08 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 16:59:18 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:59:26 Error: [MissingControllerException] Controller class EtiquetaController could not be found.
+#0 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 16:59:33 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 17:08:11 Error: [MissingTableException] Table etiquetas for model Etiqueta was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('etiquetas')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiqueta', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiqueta')
+#5 [internal function]: EtiquetasController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 17:09:01 Error: [MissingTableException] Table etiquetas for model Etiqueta was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('etiquetas')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiqueta', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiqueta')
+#5 [internal function]: EtiquetasController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 17:09:04 Error: [MissingTableException] Table etiquetas for model Etiqueta was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('etiquetas')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiqueta', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiqueta')
+#5 [internal function]: EtiquetasController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 17:09:51 Error: [MissingTableException] Table etiquetas for model Etiqueta was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('etiquetas')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiqueta', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiqueta')
+#5 [internal function]: EtiquetasController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 17:09:56 Error: [MissingTableException] Table etiquetas for model Etiqueta was not found in datasource default.
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(3180): Model->setSource('etiquetas')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Component\PaginatorComponent.php(173): Model->find('all', Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiqueta', Array, Array)
+#4 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiqueta')
+#5 [internal function]: EtiquetasController->index()
+#6 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#7 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-12-08 17:16:35 Error: Fatal Error (4): syntax error, unexpected ''cor'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\etiquetas\app\Model\Etiquetas.php, line 16]
+2012-12-08 17:16:35 Error: [FatalErrorException] syntax error, unexpected ''cor'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:21:40 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:21:40 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:24:47 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:24:47 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:25:36 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:25:36 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:26:27 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 17:28:18 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 66]
+2012-12-08 17:28:18 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 66, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:28:49 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 68]
+2012-12-08 17:28:49 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 68, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 68, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:29:03 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 68]
+2012-12-08 17:29:03 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 68, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 68, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:29:06 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:29:06 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:29:23 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:29:23 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:31:08 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 17:32:27 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 17:34:51 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:34:51 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:35:29 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 17:37:32 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:37:32 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:39:01 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:39:01 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:39:30 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:39:30 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:39:40 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:39:40 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 17:39:43 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 17:39:43 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:02:04 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:07:46 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('3')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:08:45 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:10:11 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:11:00 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:11:16 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:11:43 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:12:45 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 18:12:45 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:13:53 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 32]
+2012-12-08 18:13:53 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:20:04 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete()
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:43:58 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:50:15 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:54:16 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:54:32 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('4')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 18:58:53 Error: [MissingModelException] etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 18:58:54 Error: [MissingModelException] etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 18:58:56 Error: [MissingModelException] etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 18:59:10 Error: Fatal Error (4): syntax error, unexpected 'all' (T_STRING) in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 16]
+2012-12-08 18:59:10 Error: [FatalErrorException] syntax error, unexpected 'all' (T_STRING)
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:59:18 Error: Fatal Error (4): syntax error, unexpected 'all' (T_STRING) in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 16]
+2012-12-08 18:59:18 Error: [FatalErrorException] syntax error, unexpected 'all' (T_STRING)
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:59:19 Error: Fatal Error (4): syntax error, unexpected 'all' (T_STRING) in [C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php, line 16]
+2012-12-08 18:59:19 Error: [FatalErrorException] syntax error, unexpected 'all' (T_STRING)
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 18:59:30 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 18:59:34 Error: [MissingModelException] Etiquetas
+#0 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(1082): PaginatorComponent->paginate('Etiquetas', Array, Array)
+#1 C:\xampp\htdocs\etiquetas\app\Controller\EtiquetasController.php(14): Controller->paginate('Etiquetas')
+#2 [internal function]: EtiquetasController->index()
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#4 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-12-08 19:02:12 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:02:49 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('3')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:03:06 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:03:31 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('3')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:04:30 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:04:37 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:04:42 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:04:51 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:12:46 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('3')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:14:24 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:15:50 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('2')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:16:46 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: EtiquetasController->delete('1')
+#1 C:\xampp\htdocs\etiquetas\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(EtiquetasController), Array)
+#2 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\etiquetas\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EtiquetasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\etiquetas\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
